@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=input2 Pin=R17-w
+Removed Pin From Net: NetName=data_13 Pin=X1-11
+Removed Pin From Net: NetName=data_23 Pin=X1-12
+Removed Pin From Net: NetName=data_12 Pin=X1-13
+Removed Pin From Net: NetName=data_22 Pin=X1-14
+Removed Pin From Net: NetName=data_11 Pin=X1-15
+Removed Pin From Net: NetName=data_21 Pin=X1-16
+Added Pin To Net: NetName=data_11 Pin=X1-11
+Added Pin To Net: NetName=data_21 Pin=X1-12
+Added Pin To Net: NetName=data_13 Pin=X1-13
+Added Pin To Net: NetName=data_23 Pin=X1-14
+Added Pin To Net: NetName=data_12 Pin=X1-15
+Added Pin To Net: NetName=data_22 Pin=X1-16
+Added Room: Name=dv_analog_interface_ch1
+Added Room: Name=dv_analog_interface_ch2
+Added Room: Name=dv_analog_interface_ch3
+Added Room: Name=dv_analog_interface_ch4
+Added Room: Name=dv_analog_interface_ch5
+Added Room: Name=dv_analog_interface_ch6
+Added Room: Name=dv_analog_main
