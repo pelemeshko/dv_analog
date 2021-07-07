@@ -1,0 +1,53 @@
+D10   ROUNDED             7.874       7.874       0.000  LINE       0.000
+D11   ROUNDED            10.000      10.000       0.000  LINE       0.000
+D12   ROUNDED             6.000       6.000       0.000  LINE       0.000
+D13   ROUNDED             5.906       5.906       0.000  LINE       0.000
+D14   ROUNDED            15.748      15.748       0.000  LINE       0.000
+D15   RECTANGULAR        39.496      59.181       0.000 FLASH     180.000
+D16   RECTANGULAR        39.496      59.181       0.000 FLASH      90.000
+D17   ROUNDED            33.000     103.000       0.000 FLASH      90.000
+D18   RECTANGULAR        33.000     103.000       0.000 FLASH      90.000
+D19   ROUNDED            48.000      48.000       0.000 FLASH       0.000
+D20   ROUNDED            55.244      55.244       0.000 FLASH       0.000
+D21   RECTANGULAR        55.244      55.244       0.000 FLASH     225.000
+D22   ROUNDED            62.000      62.000       0.000 FLASH       0.000
+D23   RECTANGULAR        62.000      62.000       0.000 FLASH       0.000
+D24   ROUNDED           128.000     128.000       0.000 FLASH       0.000
+D25   ROUNDED           118.000     118.000       0.000 FLASH       0.000
+D26   RECTANGULAR       128.000     128.000       0.000 FLASH     270.000
+D27   ROUNDED           118.236     118.236       0.000 FLASH       0.000
+D28   ROUNDED           165.480     165.480       0.000 FLASH       0.000
+D29   RECTANGULAR        31.496      51.181       0.000 FLASH     180.000
+D30   RECTANGULAR        31.496      51.181       0.000 FLASH      90.000
+D31   ROUNDED            25.000      95.000       0.000 FLASH      90.000
+D32   RECTANGULAR        25.000      95.000       0.000 FLASH      90.000
+D33   ROUNDED            11.811      11.811       0.000  LINE       0.000
+D34   ROUNDED            19.685      19.685       0.000  LINE       0.000
+D35   ROUNDED            29.528      29.528       0.000  LINE       0.000
+D36   ROUNDED            15.000      15.000       0.000  LINE       0.000
+D37   ROUNDED            40.000      40.000       0.000 FLASH       0.000
+D38   ROUNDED            47.244      47.244       0.000 FLASH       0.000
+D39   RECTANGULAR        47.244      47.244       0.000 FLASH     225.000
+D40   ROUNDED            54.000      54.000       0.000 FLASH       0.000
+D41   RECTANGULAR        54.000      54.000       0.000 FLASH       0.000
+D42   ROUNDED           120.000     120.000       0.000 FLASH       0.000
+D43   ROUNDED           110.000     110.000       0.000 FLASH       0.000
+D44   RECTANGULAR       120.000     120.000       0.000 FLASH     270.000
+D45   ROUNDED            19.685      19.685       0.000 FLASH       0.000
+D46   ROUNDED            27.559      27.559       0.000 FLASH       0.000
+D47   ROUNDED           110.236     110.236       0.000 FLASH       0.000
+D48   ROUNDED           157.480     157.480       0.000 FLASH       0.000
+D49   ROUNDED            40.000      40.000       0.000  LINE       0.000
+D50   ROUNDED            35.748      35.748       0.000 FLASH       0.000
+D51   RELIEF             80.000      80.000       0.000 FLASH      15.748      10.000 4       0.000
+D52   ROUNDED            49.748      49.748       0.000 FLASH       0.000
+D53   RELIEF             94.000      94.000       0.000 FLASH      15.748      10.000 4       0.000
+D54   ROUNDED            86.748      86.748       0.000 FLASH       0.000
+D55   ROUNDED            95.748      95.748       0.000 FLASH       0.000
+D56   ROUNDED            27.559      27.559       0.000 FLASH       0.000
+D57   RELIEF             75.748      75.748       0.000 FLASH      15.748      10.000 4       0.000
+D58   RELIEF             71.811      71.811       0.000 FLASH      15.748      10.000 4       0.000
+D59   ROUNDED            31.496      31.496       0.000 FLASH       0.000
+D60   ROUNDED            78.740      78.740       0.000 FLASH       0.000
+D61   RELIEF            122.992     122.992       0.000 FLASH      15.748      10.000 4       0.000
+D62   ROUNDED           114.173     114.173       0.000 FLASH       0.000
