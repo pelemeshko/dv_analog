@@ -2,46 +2,6 @@
 FileName = dv_analog.GBR
 AutoAperture = True
 *************************************************************
-Generating : power
-      File : dv_analog.GP2
-
-    Adding Layer      : power
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D38
-    D49
-    D50
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D62
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : dv_analog.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-*************************************************************
-
-*************************************************************
 Generating : GND
       File : dv_analog.GP1
 
@@ -69,27 +29,62 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : dv_analog.GBO
+Generating : Top Layer
+      File : dv_analog.GTL
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
     D10
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : power
+      File : dv_analog.GP2
+
+    Adding Layer      : power
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
     D11
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : dv_analog.GM1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D10
+    D38
+    D49
+    D50
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D62
 *************************************************************
 
 *************************************************************
@@ -119,6 +114,30 @@ Used DCodes :
     D46
     D47
     D48
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : dv_analog.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : dv_analog.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D13
 *************************************************************
 
 *************************************************************
@@ -180,35 +199,16 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : dv_analog.GTL
+Generating : Top Overlay
+      File : dv_analog.GTO
 
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
     D10
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
+    D11
+    D12
+    D13
 *************************************************************
 
