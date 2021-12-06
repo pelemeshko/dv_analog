@@ -1,7 +1,0 @@
-Change Component Footprint: Designator=C1 Old Footprint=SMD_C0402 New Footprint=SMD_C0805
-Change Component Footprint: Designator=C8 Old Footprint=SMD_C0402 New Footprint=SMD_C0805
-Change Component Footprint: Designator=C15 Old Footprint=SMD_C0402 New Footprint=SMD_C0805
-Change Component Footprint: Designator=C22 Old Footprint=SMD_C0402 New Footprint=SMD_C0805
-Change Component Footprint: Designator=C29 Old Footprint=SMD_C0402 New Footprint=SMD_C0805
-Change Component Footprint: Designator=C36 Old Footprint=SMD_C0402 New Footprint=SMD_C0805
-Added Room: Name=dv_analog_main

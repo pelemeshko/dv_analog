@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=data_11 Pin=X1-11
-Removed Pin From Net: NetName=data_21 Pin=X1-12
-Added Pin To Net: NetName=data_21 Pin=X1-11
-Added Pin To Net: NetName=data_11 Pin=X1-12
