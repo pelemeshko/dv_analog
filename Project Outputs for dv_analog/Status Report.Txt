@@ -1,14 +1,10 @@
-Project Outputs Generation Report
----------------------------------
-Start Output Generation At 13:00:03 On 15.12.2021
-
-Output: BOM
-Type  : BOM
-From  : Variant [[No Variations]] of Project [dv_analog.PrjPcb]
-   Generated File[dv_analog.xlsx]
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [dv_analog_6_ch.PcbDoc]
+   Generated File[dv_analog.step]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 13:00:08 On 15.12.2021
+Finished Output Generation At 18:32:05 On 23.03.2022

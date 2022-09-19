@@ -50,17 +50,17 @@ PrefsRevisionGUID=
 DocumentPath=dv_analog_interface_ch.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=1
+AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
-GenerateClassCluster=0
+GenerateClassCluster=1
 DocumentUniqueId=DKKGKWTT
 
 [Document2]
@@ -101,10 +101,10 @@ DocumentUniqueId=
 DocumentPath=dv_analog_main.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=1
+AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -153,54 +153,74 @@ DocumentPath=Project Outputs for dv_analog\Design Rule Check - dv_analog_6_ch.ht
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.DRR
+DocumentPath=Project Outputs for dv_analog\ExportIDF\dv_analog.brd
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GBL
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GBO
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GBS
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GM1
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GP1
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GP2
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GTL
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GTO
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GTS
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.REP
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.RUL
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.REP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for dv_analog\ExportSTEP\dv_analog.step
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument19]
 DocumentPath=Project Outputs for dv_analog\BOM\dv_analog.xlsx
 DItemRevisionGUID=
 
@@ -1162,27 +1182,27 @@ MatchStrictly2=1
 PhysicalNamingFormat=$ComponentPrefix$GlobalIndex
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
-UniqueIDPath0=\3BEKHQZLN
+UniqueIDPath0=\5BEKHQZLN
 DocumentName0=dv_analog_interface_ch.SchDoc
 IsEnabled0=1
 SelectionScope0=All
-Order0=3
-IndexEnabled0=0
+Order0=5
+IndexEnabled0=1
 IndexStartValue0=1
 Suffix0=
-UniqueIDPath1=\4BEKHQZLN
+UniqueIDPath1=\3BEKHQZLN
 DocumentName1=dv_analog_interface_ch.SchDoc
 IsEnabled1=1
 SelectionScope1=All
-Order1=4
-IndexEnabled1=0
+Order1=3
+IndexEnabled1=1
 IndexStartValue1=1
 Suffix1=
-UniqueIDPath2=\6BEKHQZLN
-DocumentName2=dv_analog_interface_ch.SchDoc
-IsEnabled2=1
+UniqueIDPath2=
+DocumentName2=dv_analog_main.SchDoc
+IsEnabled2=0
 SelectionScope2=All
-Order2=6
+Order2=7
 IndexEnabled2=0
 IndexStartValue2=1
 Suffix2=
@@ -1191,7 +1211,7 @@ DocumentName3=dv_analog_interface_ch.SchDoc
 IsEnabled3=1
 SelectionScope3=All
 Order3=2
-IndexEnabled3=0
+IndexEnabled3=1
 IndexStartValue3=1
 Suffix3=
 UniqueIDPath4=\1BEKHQZLN
@@ -1199,29 +1219,29 @@ DocumentName4=dv_analog_interface_ch.SchDoc
 IsEnabled4=1
 SelectionScope4=All
 Order4=1
-IndexEnabled4=0
+IndexEnabled4=1
 IndexStartValue4=1
 Suffix4=
-UniqueIDPath5=
-DocumentName5=dv_analog_main.SchDoc
+UniqueIDPath5=\4BEKHQZLN
+DocumentName5=dv_analog_interface_ch.SchDoc
 IsEnabled5=1
 SelectionScope5=All
-Order5=7
+Order5=4
 IndexEnabled5=1
 IndexStartValue5=1
 Suffix5=
-UniqueIDPath6=\5BEKHQZLN
+UniqueIDPath6=\6BEKHQZLN
 DocumentName6=dv_analog_interface_ch.SchDoc
 IsEnabled6=1
 SelectionScope6=All
-Order6=5
-IndexEnabled6=0
+Order6=6
+IndexEnabled6=1
 IndexStartValue6=1
 Suffix6=
 
 [PrjClassGen]
-CompClassManualEnabled=0
-CompClassManualRoomEnabled=0
+CompClassManualEnabled=1
+CompClassManualRoomEnabled=1
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
 NetClassAutoNamedHarnessEnabled=0
