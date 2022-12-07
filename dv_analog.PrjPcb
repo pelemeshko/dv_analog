@@ -148,79 +148,108 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document7]
+DocumentPath=dv_analog_interface_627.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ONNMNGOP
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for dv_analog\Design Rule Check - dv_analog_6_ch.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for dv_analog\ExportIDF\dv_analog.brd
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog-RectHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.DRR
+DocumentPath=Project Outputs for dv_analog\ExportIDF\dv_analog.brd
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.EXTREP
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GBL
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GBO
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GBS
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GM1
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GP1
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GP2
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GTL
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GTO
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GP3
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GTS
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GP4
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.LDP
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.REP
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.RUL
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for dv_analog\ExportSTEP\dv_analog.step
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.TXT
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.REP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for dv_analog\ExportSTEP\dv_analog.step
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for dv_analog\Gerbers\dv_analog\dv_analog.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument22]
 DocumentPath=Project Outputs for dv_analog\BOM\dv_analog.xlsx
 DItemRevisionGUID=
 
@@ -390,14 +419,14 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M6235cidn
+TargetPrinter=ECOSYS M4132idn
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
 TargetPrinter=Virtual Printer
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
@@ -457,9 +486,9 @@ OutputName10=Schematic Prints
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.96|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=15|PrintQuality=1200|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A3
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.96|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=15|PrintQuality=1200|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
 Configuration10_Name1=OutputConfigurationParameter1
-Configuration10_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+Configuration10_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=C:\Users\Pelemeshko-OAI\YandexDisk\OAI_NSU\Altium_projects\KVV\dv_analog\dv_analog_interface_ch.SchDoc
 OutputType11=SimView Print
 OutputName11=SimView Prints
 OutputDocumentPath11=
@@ -822,6 +851,36 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1182,59 +1241,59 @@ MatchStrictly2=1
 PhysicalNamingFormat=$ComponentPrefix$GlobalIndex
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
-UniqueIDPath0=\5BEKHQZLN
+UniqueIDPath0=\6BEKHQZLN
 DocumentName0=dv_analog_interface_ch.SchDoc
 IsEnabled0=1
 SelectionScope0=All
-Order0=5
+Order0=6
 IndexEnabled0=1
 IndexStartValue0=1
 Suffix0=
-UniqueIDPath1=\3BEKHQZLN
-DocumentName1=dv_analog_interface_ch.SchDoc
-IsEnabled1=1
+UniqueIDPath1=
+DocumentName1=dv_analog_main.SchDoc
+IsEnabled1=0
 SelectionScope1=All
-Order1=3
-IndexEnabled1=1
+Order1=7
+IndexEnabled1=0
 IndexStartValue1=1
 Suffix1=
-UniqueIDPath2=
-DocumentName2=dv_analog_main.SchDoc
-IsEnabled2=0
+UniqueIDPath2=\5BEKHQZLN
+DocumentName2=dv_analog_interface_ch.SchDoc
+IsEnabled2=1
 SelectionScope2=All
-Order2=7
-IndexEnabled2=0
+Order2=5
+IndexEnabled2=1
 IndexStartValue2=1
 Suffix2=
-UniqueIDPath3=\2BEKHQZLN
+UniqueIDPath3=\4BEKHQZLN
 DocumentName3=dv_analog_interface_ch.SchDoc
 IsEnabled3=1
 SelectionScope3=All
-Order3=2
+Order3=4
 IndexEnabled3=1
 IndexStartValue3=1
 Suffix3=
-UniqueIDPath4=\1BEKHQZLN
+UniqueIDPath4=\2BEKHQZLN
 DocumentName4=dv_analog_interface_ch.SchDoc
 IsEnabled4=1
 SelectionScope4=All
-Order4=1
+Order4=2
 IndexEnabled4=1
 IndexStartValue4=1
 Suffix4=
-UniqueIDPath5=\4BEKHQZLN
+UniqueIDPath5=\3BEKHQZLN
 DocumentName5=dv_analog_interface_ch.SchDoc
 IsEnabled5=1
 SelectionScope5=All
-Order5=4
+Order5=3
 IndexEnabled5=1
 IndexStartValue5=1
 Suffix5=
-UniqueIDPath6=\6BEKHQZLN
+UniqueIDPath6=\1BEKHQZLN
 DocumentName6=dv_analog_interface_ch.SchDoc
 IsEnabled6=1
 SelectionScope6=All
-Order6=6
+Order6=1
 IndexEnabled6=1
 IndexStartValue6=1
 Suffix6=

@@ -1,23 +1,36 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Pelemeshko-OAI\YandexDisk\OAI_NSU\Altium_projects\KVV\dv_analog\dv_analog_6_ch.PcbDoc
-Date     : 23.03.2022
-Time     : 18:44:59
+Date     : 05.12.2022
+Time     : 18:42:18
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
-   Violation between Clearance Constraint: (0.002mm < 0.2mm) Between Split Plane  (+5V) on power And Split Plane  (No Net) on power 
-   Violation between Clearance Constraint: (0.004mm < 0.2mm) Between Split Plane  (+5V) on power And Split Plane  (No Net) on power 
-   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (+5V) on power And Split Plane  (No Net) on power 
-   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (+5V) on power And Split Plane  (No Net) on power 
-   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (+5V) on power And Split Plane  (No Net) on power 
+   Violation between Clearance Constraint: (0.002mm < 0.2mm) Between Split Plane  (+3.3VA) on 3.3V And Split Plane  (No Net) on 3.3V 
+   Violation between Clearance Constraint: (0.004mm < 0.2mm) Between Split Plane  (+3.3VA) on 3.3V And Split Plane  (No Net) on 3.3V 
+   Violation between Clearance Constraint: (0.008mm < 0.2mm) Between Split Plane  (+3.3VA) on 3.3V And Split Plane  (No Net) on 3.3V 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (+3.3VA) on 3.3V And Split Plane  (No Net) on 3.3V 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (+3.3VA) on 3.3V And Split Plane  (No Net) on 3.3V 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (+3.3VA) on 3.3V And Split Plane  (No Net) on 3.3V 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (+3.3VA) on 3.3V And Split Plane  (No Net) on 3.3V 
+   Violation between Clearance Constraint: (0.002mm < 0.2mm) Between Split Plane  (+5V) on 5V And Split Plane  (No Net) on 5V 
+   Violation between Clearance Constraint: (0.004mm < 0.2mm) Between Split Plane  (+5V) on 5V And Split Plane  (No Net) on 5V 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (+5V) on 5V And Split Plane  (No Net) on 5V 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (+5V) on 5V And Split Plane  (No Net) on 5V 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (+5V) on 5V And Split Plane  (No Net) on 5V 
+   Violation between Clearance Constraint: (0.002mm < 0.2mm) Between Split Plane  (-5V) on -5V And Split Plane  (No Net) on -5V 
+   Violation between Clearance Constraint: (0.004mm < 0.2mm) Between Split Plane  (-5V) on -5V And Split Plane  (No Net) on -5V 
+   Violation between Clearance Constraint: (0.008mm < 0.2mm) Between Split Plane  (-5V) on -5V And Split Plane  (No Net) on -5V 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (-5V) on -5V And Split Plane  (No Net) on -5V 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (-5V) on -5V And Split Plane  (No Net) on -5V 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (-5V) on -5V And Split Plane  (No Net) on -5V 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (-5V) on -5V And Split Plane  (No Net) on -5V 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (GNDA) on GND And Split Plane  (GUARD) on GND 
+   Violation between Clearance Constraint: (0.002mm < 0.2mm) Between Split Plane  (GNDA) on GND And Split Plane  (No Net) on GND 
    Violation between Clearance Constraint: (0.004mm < 0.2mm) Between Split Plane  (GNDA) on GND And Split Plane  (No Net) on GND 
    Violation between Clearance Constraint: (0.008mm < 0.2mm) Between Split Plane  (GNDA) on GND And Split Plane  (No Net) on GND 
    Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (GNDA) on GND And Split Plane  (No Net) on GND 
    Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (GNDA) on GND And Split Plane  (No Net) on GND 
    Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (GNDA) on GND And Split Plane  (No Net) on GND 
-   Violation between Clearance Constraint: (Collision < 0.2mm) Between Split Plane  (GNDA) on GND And Split Plane  (No Net) on GND 
-   Violation between Clearance Constraint: (0.183mm < 0.2mm) Between Track (10.345mm,44.741mm)(10.785mm,45.18mm) on Bottom Layer And Via (11.389mm,44.992mm) from Top Layer to Bottom Layer 
-   Violation between Clearance Constraint: (0.183mm < 0.2mm) Between Track (10.785mm,45.18mm)(10.785mm,45.685mm) on Bottom Layer And Via (11.389mm,44.992mm) from Top Layer to Bottom Layer 
-Rule Violations :13
+Rule Violations :26
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (InNamedPolygon('NONET_L01_P004')),(All)
 Rule Violations :0
@@ -26,11 +39,11 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net GUARD Between Pad U3-7(53.605mm,16.8mm) on Bottom Layer And Pad U2-7(69.905mm,16.8mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GUARD Between Pad U4-7(37.305mm,16.8mm) on Bottom Layer And Pad U3-7(53.605mm,16.8mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GUARD Between Pad U6-7(29.705mm,44.2mm) on Bottom Layer And Pad U4-7(37.305mm,16.8mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GUARD Between Pad U6-7(29.705mm,44.2mm) on Bottom Layer And Pad U5-7(46.005mm,44.2mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GUARD Between Pad U7-7(13.405mm,44.2mm) on Bottom Layer And Pad U6-7(29.705mm,44.2mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GUARD Between Via (12.972mm,50.363mm) from Top Layer to Bottom Layer And Via (26.006mm,49.55mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GUARD Between Via (29.672mm,50.363mm) from Top Layer to Bottom Layer And Via (42.706mm,49.55mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GUARD Between Via (42.706mm,47.13mm) from Top Layer to Bottom Layer And Via (45.494mm,17.63mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GUARD Between Via (43.839mm,9.831mm) from Top Layer to Bottom Layer And Via (58.525mm,9.831mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GUARD Between Via (60.539mm,9.831mm) from Top Layer to Bottom Layer And Via (75.225mm,9.831mm) from Top Layer to Bottom Layer 
 Rule Violations :5
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
@@ -40,38 +53,40 @@ Processing Rule : Width Constraint (Min=0.2mm) (Max=1mm) (Preferred=0.2mm) (All)
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.4mm) (Air Gap=0.254mm) (Entries=4) (All)
-Rule Violations :0
+   Violation between Starved Thermal on GND: Via (45.494mm,17.63mm) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on GND: Via (62.194mm,17.63mm) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on GND: Via (78.894mm,17.63mm) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+Rule Violations :3
 
 Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=3mm) (All)
-Rule Violations :0
+   Violation between Hole Size Constraint: (5.4mm > 3mm) Pad U2-***(75.308mm,19.316mm) on Multi-Layer Actual Rectangular Hole Height = 5.4mm
+   Violation between Hole Size Constraint: (6.2mm > 3mm) Pad U2-***(75.308mm,19.316mm) on Multi-Layer Actual Rectangular Hole Width = 6.2mm
+   Violation between Hole Size Constraint: (5.4mm > 3mm) Pad U3-***(58.608mm,19.316mm) on Multi-Layer Actual Rectangular Hole Height = 5.4mm
+   Violation between Hole Size Constraint: (6.2mm > 3mm) Pad U3-***(58.608mm,19.316mm) on Multi-Layer Actual Rectangular Hole Width = 6.2mm
+   Violation between Hole Size Constraint: (5.4mm > 3mm) Pad U4-***(41.908mm,19.316mm) on Multi-Layer Actual Rectangular Hole Height = 5.4mm
+   Violation between Hole Size Constraint: (6.2mm > 3mm) Pad U4-***(41.908mm,19.316mm) on Multi-Layer Actual Rectangular Hole Width = 6.2mm
+   Violation between Hole Size Constraint: (5.4mm > 3mm) Pad U5-***(12.892mm,45.444mm) on Multi-Layer Actual Rectangular Hole Height = 5.4mm
+   Violation between Hole Size Constraint: (6.2mm > 3mm) Pad U5-***(12.892mm,45.444mm) on Multi-Layer Actual Rectangular Hole Width = 6.2mm
+   Violation between Hole Size Constraint: (5.4mm > 3mm) Pad U6-***(29.592mm,45.444mm) on Multi-Layer Actual Rectangular Hole Height = 5.4mm
+   Violation between Hole Size Constraint: (6.2mm > 3mm) Pad U6-***(29.592mm,45.444mm) on Multi-Layer Actual Rectangular Hole Width = 6.2mm
+   Violation between Hole Size Constraint: (5.4mm > 3mm) Pad U7-***(46.292mm,45.444mm) on Multi-Layer Actual Rectangular Hole Height = 5.4mm
+   Violation between Hole Size Constraint: (6.2mm > 3mm) Pad U7-***(46.292mm,45.444mm) on Multi-Layer Actual Rectangular Hole Width = 6.2mm
+Rule Violations :12
 
 Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (0.051mm < 0.15mm) Between Pad C12-1(69.1mm,12.2mm) on Top Layer And Via (68.503mm,13.291mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.051mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.051mm < 0.15mm) Between Pad C24-1(52.8mm,12.2mm) on Top Layer And Via (52.203mm,13.291mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.051mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.051mm < 0.15mm) Between Pad C36-1(36.5mm,12.2mm) on Top Layer And Via (35.903mm,13.291mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.051mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.051mm < 0.15mm) Between Pad C48-1(45.2mm,39.6mm) on Top Layer And Via (44.603mm,40.691mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.051mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.051mm < 0.15mm) Between Pad C60-1(28.9mm,39.6mm) on Top Layer And Via (28.303mm,40.691mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.051mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.051mm < 0.15mm) Between Pad C72-1(12.6mm,39.6mm) on Top Layer And Via (12.003mm,40.691mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.051mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.017mm < 0.15mm) Between Pad DA1-1(70.6mm,14.642mm) on Top Layer And Via (69.863mm,15.509mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.017mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.017mm < 0.15mm) Between Pad DA2-1(54.3mm,14.642mm) on Top Layer And Via (53.563mm,15.509mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.017mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.017mm < 0.15mm) Between Pad DA3-1(38mm,14.642mm) on Top Layer And Via (37.263mm,15.509mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.017mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.017mm < 0.15mm) Between Pad DA4-1(46.7mm,42.042mm) on Top Layer And Via (45.963mm,42.909mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.017mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.017mm < 0.15mm) Between Pad DA5-1(30.4mm,42.042mm) on Top Layer And Via (29.663mm,42.909mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.017mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.017mm < 0.15mm) Between Pad DA6-1(14.1mm,42.042mm) on Top Layer And Via (13.363mm,42.909mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.017mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.128mm < 0.15mm) Between Pad Free-2(31.769mm,8.638mm) on Top Layer And Pad R53-2(33mm,10.3mm) on Top Layer [Top Solder] Mask Sliver [0.128mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.15mm) Between Pad Free-4(27.5mm,56.9mm) on Multi-Layer And Pad Free-7(27.5mm,59.2mm) on Multi-Layer [Top Solder] Mask Sliver [0.097mm] / [Bottom Solder] Mask Sliver [0.097mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.15mm) Between Pad Free-5(24.5mm,56.9mm) on Multi-Layer And Pad Free-6(24.5mm,59.2mm) on Multi-Layer [Top Solder] Mask Sliver [0.097mm] / [Bottom Solder] Mask Sliver [0.097mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.15mm) Between Pad Free-6(24.5mm,59.2mm) on Multi-Layer And Pad Free-8(24.5mm,61.5mm) on Multi-Layer [Top Solder] Mask Sliver [0.097mm] / [Bottom Solder] Mask Sliver [0.097mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.15mm) Between Pad Free-7(27.5mm,59.2mm) on Multi-Layer And Pad Free-9(27.5mm,61.5mm) on Multi-Layer [Top Solder] Mask Sliver [0.097mm] / [Bottom Solder] Mask Sliver [0.097mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.147mm < 0.15mm) Between Pad Free-9(38.5mm,8.3mm) on Multi-Layer And Pad R58-1(38.405mm,10.3mm) on Top Layer [Top Solder] Mask Sliver [0.147mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.052mm < 0.15mm) Between Pad R115-1(14.505mm,37.7mm) on Top Layer And Via (13.744mm,38.691mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.052mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.052mm < 0.15mm) Between Pad R58-1(38.405mm,10.3mm) on Top Layer And Via (37.644mm,11.291mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.052mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.052mm < 0.15mm) Between Pad R77-1(47.105mm,37.7mm) on Top Layer And Via (46.344mm,38.691mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.052mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.052mm < 0.15mm) Between Pad R96-1(30.805mm,37.7mm) on Top Layer And Via (30.044mm,38.691mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.052mm]
-Rule Violations :22
+   Violation between Minimum Solder Mask Sliver Constraint: (0.145mm < 0.15mm) Between Pad C56-2(12.027mm,53.515mm) on Top Layer And Via (12.973mm,52.711mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.145mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.145mm < 0.15mm) Between Pad C69-2(28.727mm,53.515mm) on Top Layer And Via (29.673mm,52.711mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.145mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.145mm < 0.15mm) Between Pad C82-2(45.427mm,53.515mm) on Top Layer And Via (46.373mm,52.711mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.145mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.11mm < 0.15mm) Between Track (12.238mm,48.943mm)(12.238mm,49.595mm) on Bottom Solder And Track (12.67mm,50.026mm)(12.969mm,50.325mm) on Bottom Solder [Bottom Solder] Mask Sliver [0.11mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.11mm < 0.15mm) Between Track (28.938mm,48.943mm)(28.938mm,49.595mm) on Bottom Solder And Track (29.37mm,50.026mm)(29.669mm,50.325mm) on Bottom Solder [Bottom Solder] Mask Sliver [0.11mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.11mm < 0.15mm) Between Track (41.831mm,14.435mm)(42.13mm,14.734mm) on Bottom Solder And Track (42.562mm,15.165mm)(42.562mm,15.817mm) on Bottom Solder [Bottom Solder] Mask Sliver [0.11mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.11mm < 0.15mm) Between Track (45.638mm,48.943mm)(45.638mm,49.595mm) on Bottom Solder And Track (46.07mm,50.026mm)(46.369mm,50.325mm) on Bottom Solder [Bottom Solder] Mask Sliver [0.11mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.11mm < 0.15mm) Between Track (58.531mm,14.435mm)(58.83mm,14.734mm) on Bottom Solder And Track (59.262mm,15.165mm)(59.262mm,15.817mm) on Bottom Solder [Bottom Solder] Mask Sliver [0.11mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.11mm < 0.15mm) Between Track (75.231mm,14.435mm)(75.53mm,14.734mm) on Bottom Solder And Track (75.962mm,15.165mm)(75.962mm,15.817mm) on Bottom Solder [Bottom Solder] Mask Sliver [0.11mm]
+Rule Violations :9
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
@@ -79,28 +94,34 @@ Rule Violations :0
 Processing Rule : Matched Lengths(Tolerance=0.5mm) (InDifferentialPairClass('Diff Class'))
 Rule Violations :0
 
-Processing Rule : Room dv_analog_interface_ch5 (Bounding Region = (23.8mm, 36.4mm, 40.1mm, 55.5mm) (InComponentClass('dv_analog_interface_ch5'))
-Rule Violations :0
+Processing Rule : Room dv_analog_interface_ch2 (Bounding Region = (48.1mm, 7.8mm, 64.8mm, 28.2mm) (InComponentClass('dv_analog_interface_ch2'))
+   Violation between Room Definition: Between Component U3-ADA4530+AD8620+2D627 (63.539mm,14.852mm) on Top Layer And Room dv_analog_interface_ch2 (Bounding Region = (48.1mm, 7.8mm, 64.8mm, 28.2mm) (InComponentClass('dv_analog_interface_ch2')) 
+Rule Violations :1
 
-Processing Rule : Room dv_analog_interface_ch3 (Bounding Region = (31.4mm, 8.3mm, 47.7mm, 28.1mm) (InComponentClass('dv_analog_interface_ch3'))
-Rule Violations :0
+Processing Rule : Room dv_analog_interface_ch1 (Bounding Region = (64.8mm, 7.8mm, 81.5mm, 28.2mm) (InComponentClass('dv_analog_interface_ch1'))
+   Violation between Room Definition: Between Component U2-ADA4530+AD8620+2D627 (80.239mm,14.852mm) on Top Layer And Room dv_analog_interface_ch1 (Bounding Region = (64.8mm, 7.8mm, 81.5mm, 28.2mm) (InComponentClass('dv_analog_interface_ch1')) 
+Rule Violations :1
 
-Processing Rule : Room dv_analog_interface_ch6 (Bounding Region = (7.5mm, 36.4mm, 23.8mm, 55.5mm) (InComponentClass('dv_analog_interface_ch6'))
-Rule Violations :0
+Processing Rule : Room dv_analog_interface_ch3 (Bounding Region = (31.4mm, 7.8mm, 48.1mm, 28.2mm) (InComponentClass('dv_analog_interface_ch3'))
+   Violation between Room Definition: Between Component U4-ADA4530+AD8620+2D627 (46.839mm,14.852mm) on Top Layer And Room dv_analog_interface_ch3 (Bounding Region = (31.4mm, 7.8mm, 48.1mm, 28.2mm) (InComponentClass('dv_analog_interface_ch3')) 
+Rule Violations :1
 
-Processing Rule : Room dv_analog_interface_ch4 (Bounding Region = (40.1mm, 36.4mm, 56.4mm, 55.5mm) (InComponentClass('dv_analog_interface_ch4'))
-Rule Violations :0
+Processing Rule : Room dv_analog_interface_ch5 (Bounding Region = (23.4mm, 36.5mm, 40.1mm, 56.9mm) (InComponentClass('dv_analog_interface_ch5'))
+   Violation between Room Definition: Between Component U6-ADA4530+AD8620+2D627 (24.661mm,49.908mm) on Top Layer And Room dv_analog_interface_ch5 (Bounding Region = (23.4mm, 36.5mm, 40.1mm, 56.9mm) (InComponentClass('dv_analog_interface_ch5')) 
+Rule Violations :1
 
-Processing Rule : Room dv_analog_interface_ch1 (Bounding Region = (64mm, 9mm, 80.3mm, 28.1mm) (InComponentClass('dv_analog_interface_ch1'))
-Rule Violations :0
+Processing Rule : Room dv_analog_interface_ch6 (Bounding Region = (40.1mm, 36.5mm, 56.8mm, 56.9mm) (InComponentClass('dv_analog_interface_ch6'))
+   Violation between Room Definition: Between Component U7-ADA4530+AD8620+2D627 (41.361mm,49.908mm) on Top Layer And Room dv_analog_interface_ch6 (Bounding Region = (40.1mm, 36.5mm, 56.8mm, 56.9mm) (InComponentClass('dv_analog_interface_ch6')) 
+Rule Violations :1
 
-Processing Rule : Room dv_analog_interface_ch2 (Bounding Region = (47.7mm, 9mm, 64mm, 28.1mm) (InComponentClass('dv_analog_interface_ch2'))
-Rule Violations :0
+Processing Rule : Room dv_analog_interface_ch4 (Bounding Region = (6.7mm, 36.5mm, 23.4mm, 56.9mm) (InComponentClass('dv_analog_interface_ch4'))
+   Violation between Room Definition: Between Component U5-ADA4530+AD8620+2D627 (7.961mm,49.908mm) on Top Layer And Room dv_analog_interface_ch4 (Bounding Region = (6.7mm, 36.5mm, 23.4mm, 56.9mm) (InComponentClass('dv_analog_interface_ch4')) 
+Rule Violations :1
 
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 40
+Violations Detected : 61
 Waived Violations : 0
 Time Elapsed        : 00:00:01
