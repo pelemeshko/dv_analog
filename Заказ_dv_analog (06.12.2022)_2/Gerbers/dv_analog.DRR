@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: dv_analog_6_ch.PcbDoc   09.12.2022  12:55:12
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : dv_analog.TXT
+ASCII RectHoles File : dv_analog-RectHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.5mm (20mil)                                             Round             147       PTH        662.96mm (26.10inch)
+T2      0.51mm (20mil)                                            Round             4         PTH        6.50mm (0.26inch)
+T3      0.8mm (31mil)                                             Round             12        PTH        89.53mm (3.52inch)
+T4      0.86mm (34mil)                                            Round             26        PTH        64.00mm (2.52inch)
+T5      0.95mm (37mil)                                            Round             4         PTH        7.98mm (0.31inch)
+T6      1mm (39mil)                                               Round             10        PTH        100.49mm (3.96inch)
+T7      2.6mm (102mil)                                            Round             7         PTH        231.12mm (9.10inch)
+T8      5.4mm (213mil)                                            Rectangle         6         NPTH       213.89mm (8.42inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              216
+
+Total Processing Time (hh:mm:ss) : 00:00:01
