@@ -4,9 +4,9 @@
   <c> CAUTION: DO NOT MODIFY THIS FILE !!! </c>
   <c>     ...if you don't know how...      </c>
   <c>======================================</c>
-  <Version ver="2" rev="7" build="2" date="05/04/2020" ID="2073346223" />
+  <Version ver="2" rev="7" build="2" date="05/04/2020" ID="734678703" />
   <Doc display="3" activeSheet="0">
-    <Properties title="No+title" revision="1.0" author="Anatolii+Pelemeshko" project="Unknown" organization="NSU" comments="" created="24.01.2022+10%3a39%3a08" modified="22.01.2023+15%3a42%3a41" save="0" />
+    <Properties title="No+title" revision="1.0" author="Anatolii+Pelemeshko" project="Unknown" organization="NSU" comments="" created="24.01.2022+10%3a39%3a08" modified="17.03.2023+10%3a58%3a25" save="0" />
     <CirWin state="2" />
     <Cmps>
       <Cmp type="C_C" id="17" name="C1" file_name="" view="0" node0="0" node1="3" model="C" ic="" c="91e-12" fs="1%2fs" />
@@ -19,9 +19,9 @@
       <Cmp type="R_R" id="5" name="R1" file_name="" view="0" node0="0" node1="7" model="R" r="330" fs="1" />
       <Cmp type="R_R" id="6" name="R2" file_name="" view="0" node0="2" node1="7" model="R" r="1e+6" fs="1" />
       <Cmp type="R_R" id="15" name="R3" file_name="" view="0" node0="6" node1="0" model="R" r="20e+3" fs="1" />
-      <Cmp type="R_R" id="8" name="R4" file_name="" view="0" node0="1" node1="3" model="R" r="26.4e+3" fs="1" />
-      <Cmp type="R_R" id="9" name="R5" file_name="" view="0" node0="0" node1="3" model="R" r="13e+3" fs="1" />
-      <Cmp type="R_R" id="13" name="R6" file_name="" view="0" node0="3" node1="9" model="R" r="12e+3" fs="1" />
+      <Cmp type="R_R" id="8" name="R4" file_name="" view="0" node0="1" node1="3" model="R" r="27e+3" fs="1" />
+      <Cmp type="R_R" id="9" name="R5" file_name="" view="0" node0="0" node1="3" model="R" r="13.3e+3" fs="1" />
+      <Cmp type="R_R" id="13" name="R6" file_name="" view="0" node0="3" node1="9" model="R" r="8.2e+3" fs="1" />
       <Cmp type="V_V" id="3" name="V1" file_name="" view="0" node0="0" node1="5" model="Sin" v="10">
         <Signal u0="0" u1="1.4e-3" p="100e-3" w="500e-3" s="0" r="0" f="0" d="0" ph="0" pwl="0%2c0" function="10" file="" trace="" c="0" />
       </Cmp>
@@ -30,10 +30,10 @@
       <Cmp type="label" id="11" name="out2" file_name="" view="0" node0="3" model="Label" ic="" r="100" v="10" />
     </Cmps>
     <Sheet name="Sheet1">
-      <VC size="54" center="11,3" />
-      <Curs p="8,3" dir="-1" />
+      <VC size="51" center="6,-1" />
+      <Curs p="-2,-9" dir="-1" />
       <Pcts>
-        <Pct type="label" undo_id="63" id="25" p="10,-3" text0="16,-24" text1="16,24" textdir="0" />
+        <Pct type="label" undo_id="1" id="25" p="10,-3" text0="16,-24" text1="16,24" textdir="0" />
         <Pct type="label" undo_id="2" id="4" p="0,1" text0="16,-24" text1="16,24" textdir="0" />
         <Pct type="label" undo_id="3" id="11" p="10,1" text0="16,-24" text1="16,24" textdir="0" />
         <Pct type="cmp" undo_id="4" id="3" p="-10,0" dir="2" mir="1" view="0" text0="32,-30" text1="32,30" textdir="0" subcir="true" />
@@ -41,7 +41,7 @@
         <Pct type="cmp" undo_id="6" id="1" p="-3,0" dir="0" mir="0" view="0" text0="70,-18" text1="70,0" textdir="0" subcir="true" />
         <Pct type="cmp" undo_id="7" id="8" p="10,0" dir="3" mir="0" view="0" text0="40,30" text1="24,30" textdir="0" subcir="true" />
         <Pct type="cmp" undo_id="8" id="21" p="13,0" dir="3" mir="0" view="0" text0="32,-24" text1="32,24" textdir="0" subcir="true" />
-        <Pct type="cmp" undo_id="205" id="26" p="1,1" dir="0" mir="0" view="0" text0="32,-24" text1="32,24" textdir="0" subcir="true" />
+        <Pct type="cmp" undo_id="9" id="26" p="1,1" dir="0" mir="0" view="0" text0="32,-24" text1="32,24" textdir="0" subcir="true" />
         <Pct type="cmp" undo_id="10" id="13" p="4,1" dir="0" mir="0" view="0" text0="32,-20" text1="32,20" textdir="0" subcir="true" />
         <Pct type="cmp" undo_id="11" id="17" p="8,2" dir="1" mir="0" view="0" text0="32,24" text1="32,-24" textdir="0" subcir="true" />
         <Pct type="cmp" undo_id="12" id="9" p="10,2" dir="1" mir="0" view="0" text0="24,-30" text1="40,-30" textdir="0" subcir="true" />
@@ -64,27 +64,27 @@
         <Pct type="line" undo_id="29" p0="13,-3" p1="13,-2" />
         <Pct type="line" undo_id="30" p0="-10,0" p1="-9,0" />
         <Pct type="line" undo_id="31" p0="-7,0" p1="-6,0" />
-        <Pct type="line" undo_id="267" p0="-6,0" p1="-3,0" />
+        <Pct type="line" undo_id="81" p0="-6,0" p1="-3,0" />
         <Pct type="line" undo_id="33" p0="-6,0" p1="-6,1" />
         <Pct type="line" undo_id="34" p0="10,0" p1="10,1" />
-        <Pct type="line" undo_id="263" p0="10,1" p1="10,2" />
+        <Pct type="line" undo_id="77" p0="10,1" p1="10,2" />
         <Pct type="line" undo_id="35" p0="13,0" p1="13,2" />
         <Pct type="line" undo_id="36" p0="0,1" p1="1,1" />
         <Pct type="line" undo_id="37" p0="0,1" p1="0,4" />
-        <Pct type="line" undo_id="269" p0="0,4" p1="0,7" />
-        <Pct type="line" undo_id="206" p0="3,1" p1="4,1" />
+        <Pct type="line" undo_id="83" p0="0,4" p1="0,7" />
+        <Pct type="line" undo_id="38" p0="3,1" p1="4,1" />
         <Pct type="line" undo_id="39" p0="6,1" p1="8,1" />
-        <Pct type="line" undo_id="268" p0="8,1" p1="10,1" />
-        <Pct type="line" undo_id="264" p0="10,1" p1="14,1" />
+        <Pct type="line" undo_id="82" p0="8,1" p1="10,1" />
+        <Pct type="line" undo_id="78" p0="10,1" p1="14,1" />
         <Pct type="line" undo_id="41" p0="8,1" p1="8,2" />
         <Pct type="line" undo_id="44" p0="-4,2" p1="-3,2" />
         <Pct type="line" undo_id="45" p0="-4,2" p1="-4,4" />
-        <Pct type="line" undo_id="266" p0="-4,4" p1="-4,7" />
+        <Pct type="line" undo_id="80" p0="-4,4" p1="-4,7" />
         <Pct type="line" undo_id="46" p0="-6,3" p1="-6,4" />
         <Pct type="line" undo_id="48" p0="-4,4" p1="-3,4" />
         <Pct type="line" undo_id="49" p0="-1,4" p1="0,4" />
         <Pct type="line" undo_id="51" p0="8,4" p1="10,4" />
-        <Pct type="line" undo_id="265" p0="10,4" p1="13,4" />
+        <Pct type="line" undo_id="79" p0="10,4" p1="13,4" />
         <Pct type="line" undo_id="53" p0="-4,7" p1="-3,7" />
         <Pct type="line" undo_id="54" p0="-1,7" p1="0,7" />
         <Pct type="pict" undo_id="55" pict="3" p0="-36,-37" dir="0" vars="false" txt="AD8620" align="-1" outline="false" width="1" pictcolor="255,255,0" pointer="false" pointerarrow="false" lock="false" p1="-36,-37">
@@ -94,7 +94,7 @@
     </Sheet>
     <Calc zero="10e-12" kmin="10e-3" nsr="false" ndo="false" os="false" timeout="0" low="0" high="5" thr="2.5" zparam="" />
     <Tran storage="1" last="false" storage_shift="true">
-      <Cursors enabled="true" locked="false" interval="false" left="372.166998012e-3" right="473.161033797e-3" active="false" />
+      <Cursors enabled="true" locked="false" interval="false" left="372.166998012e-3" right="1.21100047416" active="false" />
       <Table enabled="true" tran_table="false" time_table="true" time_header="false" vars="6143">
         <Width w0="4" w1="4" w2="4" w3="4" w4="4" w5="4" w6="4" w7="4" w8="4" w9="4" w10="4" w11="4" w12="4" />
         <TranTable l="0" t="0" w="0" h="0" usetran="false" seltraces="false" />
@@ -108,10 +108,10 @@
         <Trace type="0" id="3" color="255,0,0" mode="0" name="V(V1)" tracename="" expr="V(V1)" dig_threshold="2.5" lines="true" data_points="false" bus_format="2" bus_bits="0" bus_content="false" bus_fp="0" bus_text="" scale="10" mid="0" scale_history="10" shift="0" width="1" phwidth="1" plot="true" table="true" storage="true" tool="0" xy="false" out1="0" />
         <Trace type="0" id="11" color="128,0,64" mode="0" name="V(out2)" tracename="" expr="V(out2)" dig_threshold="2.5" lines="true" data_points="false" bus_format="2" bus_bits="0" bus_content="false" bus_fp="0" bus_text="" scale="10" mid="0" scale_history="10" shift="0" width="1" phwidth="1" plot="true" table="true" storage="true" tool="0" xy="false" out1="0" />
       </Traces>
-      <Log>Transient+log%0aStarted+%3a+22.01.2023+15%3a41%3a52%0aFile+%3a+C%3a%5cUsers%5cPelemeshko-OAI%5cYandexDisk%5cOAI_NSU%5cAltium_projects%5cKVV%5cdv_analog%5canalog_ampl_v2.nl5%0a0+%3a+Init%0aComponents+%3d+17%0aNodes+%3d+8%0aRank+%3d+18%0a26.02e-3+%3a+Oscillations+at+node+9+%3a+C1%0aStopped+%3a+22.01.2023+15%3a41%3a53</Log>
+      <Log>Transient+log%0aStarted+%3a+17.03.2023+11%3a00%3a23%0aFile+%3a+C%3a%5cUsers%5cPelemeshko-OAI%5cYandexDisk%5cOAI_NSU%5cAltium_projects%5cKVV%5cdv_analog%5canalog_ampl_v2.nl5%0aStopped+%3a+17.03.2023+11%3a00%3a23%0a0+%3a+Init%0aComponents+%3d+17%0aNodes+%3d+8%0aRank+%3d+18%0a36.02e-3+%3a+Oscillations+at+node+9+%3a+C1%0aStopped+%3a+17.03.2023+11%3a00%3a51</Log>
     </Tran>
     <Freq storage="1" last="false" storage_shift="true">
-      <Cursors enabled="true" locked="false" interval="false" left="9.90886375212" right="76.6817205653e+3" active="false" />
+      <Cursors enabled="true" locked="false" interval="false" left="9.86360757099" right="76.6817205653e+3" active="true" />
       <Table enabled="true" tran_table="false" time_table="true" time_header="false" vars="2111">
         <Width w0="4" w1="4" w2="4" w3="4" w4="4" w5="4" w6="4" w7="4" w8="4" w9="4" w10="4" w11="4" w12="4" />
         <TranTable l="1768384836" t="574452596" w="0" h="1147237473" usetran="true" seltraces="true" />
@@ -124,7 +124,7 @@
         <Trace type="6" id="4" color="0,0,255" mode="0" name="V(out1)" tracename="" expr="V(out1)" dig_threshold="2.5" lines="true" data_points="false" bus_format="2" bus_bits="0" bus_content="false" bus_fp="0" bus_text="" scale="10" mid="0" scale_history="" shift="0" width="1" phwidth="1" plot="true" table="true" storage="true" tool="0" xy="false" out1="0" />
         <Trace type="6" id="11" color="128,0,64" mode="0" name="V(out2)" tracename="" expr="V(out2)" dig_threshold="2.5" lines="true" data_points="false" bus_format="2" bus_bits="0" bus_content="false" bus_fp="0" bus_text="" scale="10" mid="0" scale_history="" shift="0" width="1" phwidth="1" plot="true" table="true" storage="true" tool="0" xy="false" out1="0" />
       </Traces>
-      <Log>AC+log%0aStarted+%3a+22.01.2023+15%3a42%3a41%0aFile+%3a+C%3a%5cUsers%5cPelemeshko-OAI%5cYandexDisk%5cOAI_NSU%5cAltium_projects%5cKVV%5cdv_analog%5canalog_ampl_v2.nl5%0aInit%0aComponents+%3d+17%0aNodes+%3d+8%0aRank+%3d+18%0aStopped+%3a+22.01.2023+15%3a42%3a41</Log>
+      <Log>AC+log%0aStarted+%3a+17.03.2023+11%3a00%3a04%0aFile+%3a+C%3a%5cUsers%5cPelemeshko-OAI%5cYandexDisk%5cOAI_NSU%5cAltium_projects%5cKVV%5cdv_analog%5canalog_ampl_v2.nl5%0aInit%0aComponents+%3d+17%0aNodes+%3d+8%0aRank+%3d+18%0aStopped+%3a+17.03.2023+11%3a00%3a04</Log>
     </Freq>
     <Sweep Name="C1.C" From="51e-12" To="91e-12" Step="30" Type="1" List="" />
     <Optimization N="4" tran="true" ac="false" run="true">
