@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Pelemeshko-OAI\YandexDisk\OAI_NSU\Altium_projects\KVV\dv_analog\dv_analog_6_ch.PcbDoc
-Date     : 09.12.2022
-Time     : 12:54:39
+Date     : 15.11.2023
+Time     : 11:52:11
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
    Violation between Clearance Constraint: (0.002mm < 0.2mm) Between Split Plane  (GNDA) on GND And Split Plane  (No Net) on GND 
@@ -20,11 +20,18 @@ Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
    Violation between Un-Routed Net Constraint: Net GUARD Between Via (12.975mm,54.929mm) from Top Layer to Bottom Layer And Via (27.661mm,54.929mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Via (17.986mm,60.95mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Net GUARD Between Via (29.675mm,54.929mm) from Top Layer to Bottom Layer And Via (44.361mm,54.929mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Via (3.95mm,18.45mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (33.45mm,3.95mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Net GUARD Between Via (42.696mm,48.638mm) from Top Layer to Bottom Layer And Via (45.504mm,16.122mm) from Top Layer to Bottom Layer 
    Violation between Un-Routed Net Constraint: Net GUARD Between Via (43.839mm,9.831mm) from Top Layer to Bottom Layer And Via (58.525mm,9.831mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Via (43.95mm,32.45mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (54.45mm,60.95mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Net GUARD Between Via (60.539mm,9.831mm) from Top Layer to Bottom Layer And Via (75.225mm,9.831mm) from Top Layer to Bottom Layer 
-Rule Violations :5
+   Violation between Un-Routed Net Constraint: Via (69.914mm,3.95mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (83.951mm,25.447mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+Rule Violations :12
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -102,6 +109,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 56
+Violations Detected : 63
 Waived Violations : 0
 Time Elapsed        : 00:00:02
